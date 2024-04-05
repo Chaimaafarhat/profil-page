@@ -1,0 +1,75 @@
+body {
+  background-image: url('background.jpeg'); 
+  background-size: cover; 
+  background-position: center;
+  color: #ffffff; 
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.card {
+  background-color: rgba(138, 106, 106, 0.85); 
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #4a4a4a;
+  width: 60%;
+  margin: 30px auto;
+  text-align: center;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+
+.card a img {
+  width: 40px; 
+  height: auto;
+  margin-top: 15px;
+}
+
+
+h1 {
+  color: #2e3236;
+  margin-bottom: 15px;
+}
+
+h2 {
+    color: #2e3236;
+    margin-bottom: 15px;
+  }
+
+.half-width {
+  width: 60%;
+  padding:60px ;
+  margin: ;
+}
+
+
+.circle-image {
+  border-radius: 50%;
+  width: 150px; 
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  margin: 20px auto;
+  border: 3px solid #0d6efd;
+}
+
+
+.contact-list {
+  list-style-type: none;
+}
+
+
+.contact-list li i {
+  font-size: 120px;
+}
+
+a{
+    background-color: #0d6efd ;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
